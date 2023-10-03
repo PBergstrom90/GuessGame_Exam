@@ -19,8 +19,9 @@ A simple Java console-based guessing game where the player tries to guess a rand
 
 1. Clone this repository to your local machine:
 
-   ```bash
-   git clone https://github.com/yourusername/guessing-game.git
+```
+git clone https://github.com/yourusername/guessing-game.git
+```
 
 1. Compile the Java code:
 ```
