@@ -1,18 +1,52 @@
+# Guessing Game
+
+A simple Java console-based guessing game where the player tries to guess a random number between 1 and 100.
+
+## Features
+
+- Randomly generated target number.
+- Player's score based on the number of attempts.
+- Low score tracking.
+- Menu-driven user interface.
+- Top 5 low scores displayed.
+
+## Prerequisites
+
+- Java Development Kit (JDK) installed on your system.
+- A Java IDE or text editor for code editing.
+
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+1. Clone this repository to your local machine:
 
-## Folder Structure
+   ```bash
+   git clone https://github.com/yourusername/guessing-game.git
 
-The workspace contains two folders by default, where:
+1. Compile the Java code:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+javac Menu.java GuessGame.java LowScore.java Main.java
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+2. Run the game:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+java Main
 
-## Dependency Management
+3. Follow the on-screen instructions to play the game, view the low score list, or exit the program.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+How to Play
+
+Select option 1 to start the game.
+Guess the random number between 1 and 100.
+Your score is based on the number of attempts.
+When you guess correctly, enter your name to register your score in the low score list.
+
+Low Score List
+
+Select option 2 from the menu to view the low score list.
+The low score list displays the top 5 players with the lowest scores.
+Scores are sorted in ascending order (fewest attempts = higher score).
+
+Author
+Pontus Bergström
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
