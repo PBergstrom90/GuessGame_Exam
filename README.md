@@ -43,7 +43,7 @@ The low score list displays the top 5 players with the lowest scores.
 Scores are sorted in ascending order (fewest attempts = higher score).
 
 Author:
-Pontus Bergström [@PBergstrom90] 
+Pontus Bergström [@PBergstrom90] (https://github.com/PBergstrom90)
 
 License:
 This project is licensed under the MIT License - see the LICENSE file for details.
