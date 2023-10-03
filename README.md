@@ -17,12 +17,6 @@ A simple Java console-based guessing game where the player tries to guess a rand
 
 ## Getting Started
 
-1. Clone this repository to your local machine:
-
-```
-git clone https://github.com/yourusername/guessing-game.git
-```
-
 1. Compile the Java code:
 ```
 javac Menu.java GuessGame.java LowScore.java Main.java
