@@ -23,30 +23,31 @@ A simple Java console-based guessing game where the player tries to guess a rand
    git clone https://github.com/yourusername/guessing-game.git
 
 1. Compile the Java code:
-
+```
 javac Menu.java GuessGame.java LowScore.java Main.java
-
+```
 2. Run the game:
 
+```
 java Main
-
+```
 3. Follow the on-screen instructions to play the game, view the low score list, or exit the program.
 
-How to Play
+How to Play:
 
 Select option 1 to start the game.
 Guess the random number between 1 and 100.
 Your score is based on the number of attempts.
 When you guess correctly, enter your name to register your score in the low score list.
 
-Low Score List
+Low Score List:
 
 Select option 2 from the menu to view the low score list.
 The low score list displays the top 5 players with the lowest scores.
 Scores are sorted in ascending order (fewest attempts = higher score).
 
-Author
-Pontus Bergström
+Author:
+Pontus Bergström @PBergstrom90
 
-License
+License:
 This project is licensed under the MIT License - see the LICENSE file for details.
