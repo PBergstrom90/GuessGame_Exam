@@ -28,6 +28,7 @@ java Main
 ```
 3. Follow the on-screen instructions to play the game, view the low score list, or exit the program.
 
+
 How to Play:
 
 Select option 1 to start the game.
