@@ -44,3 +44,6 @@ Scores are sorted in ascending order (fewest attempts = higher score).
 
 Author:
 Pontus Bergström : (https://github.com/PBergstrom90)
+
+Comments:
+Comments are typed in Swedish.
