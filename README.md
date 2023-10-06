@@ -44,6 +44,3 @@ Scores are sorted in ascending order (fewest attempts = higher score).
 
 Author:
 Pontus Bergström : (https://github.com/PBergstrom90)
-
-License:
-This project is licensed under the MIT License.
