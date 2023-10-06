@@ -2,13 +2,14 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.Random;
 
-//Klass för själva spelet. Spellogiken finns här.
+// Klass för själva spelet. Spellogiken finns här.
 public class GuessGame {
     private int correctNumber;
     private int attempts;
     private int score;
-    private LowScore lowScore;  // Lägger till möjlighet att registrera,
-                                // spelarpoäng i LowScore-klassen.
+    private LowScore lowScore;  
+    /* Lägger till möjlighet att registrera,
+    spelarpoäng i LowScore-klassen. */
 
     public GuessGame(LowScore lowScore) {
         // Lägger GuessGame-grunden för spelet.
@@ -24,9 +25,9 @@ public class GuessGame {
         boolean correctGuess = false;
 
         System.out.print("\nGissa på en siffra mellan 1 till 100: ");
-        // Sålänge correctGuess inte är true, fortsätt köra.
+        // Sålänge "correctGuess" inte är true, fortsätt köra.
         while (!correctGuess) {
-            try{
+            try {
             int guess = scanner.nextInt();
             attempts++;
 

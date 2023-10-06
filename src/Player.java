@@ -1,6 +1,6 @@
 public class Player {
-    // En egen klass för att registrera spelare. 
-    // För att det ska bli enklare att sortera LowScore-listan.
+    /*  En egen klass för att registrera spelare. 
+        För att det ska bli enklare att sortera LowScore-listan. */
     
     private String name;
     private int score;

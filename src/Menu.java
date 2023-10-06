@@ -8,6 +8,7 @@ private Scanner scanner = new Scanner (System.in);
 private boolean isRunning = true;
 private LowScore lowScore = new LowScore();
 
+// Metod för att köra menyn. Startas i Main.
 public void runMenu() {
 int choice;
 
